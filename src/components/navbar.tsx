@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { SignedIn, SignedOut, UserButton, SignInButton } from "@clerk/nextjs";
-import { ShoppingCart } from "lucide-react";
 import CartComponent from "./Cart";
 
 export default function Navbar() {

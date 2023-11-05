@@ -4,7 +4,7 @@ import "./globals.css";
 import clsx from "clsx";
 import { ClerkProvider } from "@clerk/nextjs";
 import { ptBR } from "@clerk/localizations"
-import NavbarComponent from "@/components/Navbar";
+import NavbarComponent from "@/components/NavbarComponet";
 
 import HydrateComponent from "@/components/Hydrate";
 

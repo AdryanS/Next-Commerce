@@ -6,6 +6,8 @@ import { ClerkProvider } from "@clerk/nextjs";
 import { ptBR } from "@clerk/localizations"
 import Navbar from "@/components/Navbar";
 
+import HydrateComponent from "@/components/Hydrate";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -22,8 +24,10 @@ export default function RootLayout({
     <ClerkProvider localization={ptBR}>
       <html lang="pt-br">
         <body className={clsx(inter.className, "bg-slate-700")}>
-          <Navbar />
-          <main className="h-screen pt-16 px-8">{children}</main>
+          <HydrateComponent>
+            <Navbar />
+            <main className="h-screen pt-16 px-8">{children}</main>
+          </HydrateComponent>
         </body>
       </html>
     </ClerkProvider>

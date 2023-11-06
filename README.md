@@ -4,7 +4,7 @@ Feito com [Next.js](https://nextjs.org/) 💜
 
 ## Começando:
 
-Crie as variaveis de ambiente, em um arquivo .env na raiz do projeto: 
+Crie as variaveis de ambiente, em um arquivo ``.env`` na raiz do projeto: 
 
 - No site do [Clerk](https://clerk.com/), faça login e pegue suas variaveis de ambiente.
 
@@ -35,6 +35,18 @@ POSTGRES_DATABASE=
 ```
 
 ## Apos a configuração
+
+Instale as Dependências do projeto:
+
+```bash
+npm install
+# or
+yarn
+# or
+pnpm install
+# or
+bun install
+```
 
 Rode o projeto localmente:
 

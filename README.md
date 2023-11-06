@@ -1,6 +1,13 @@
 # Next Commerce
 
-Feito com [Next.js](https://nextjs.org/) 💜
+### Um simples E-Commerce com as tecnologias:
+
+  - [Clerk](https://clerk.com/)
+  - [Stripe](https://stripe.com/)
+  - [Prisma](https://prisma.io/)
+  - [Zustand](https://github.com/pmndrs/zustand)
+
+Feito em [Next.js](https://nextjs.org/) 💜
 
 ## Começando:
 
